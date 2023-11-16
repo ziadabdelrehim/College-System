@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="589.0" prefWidth="434.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LecturerViewC">
+   <children>
+      <Button layoutX="335.0" layoutY="441.0" mnemonicParsing="false" onAction="#Insert" text="Insert">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Button>
+      <Label layoutX="14.0" layoutY="34.0" text="Name :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="88.0" text="ID :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="140.0" text="Subject :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label fx:id="NameLabel" layoutX="203.0" layoutY="38.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label fx:id="IdLabel" layoutX="203.0" layoutY="92.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label fx:id="SubLabel" layoutX="203.0" layoutY="144.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="14.0" layoutY="218.0" text="Your Students">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="8.0" layoutY="266.0" text="7th (Out OF 20)">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="6.0" layoutY="309.0" text="12th (Out Of 15)">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="354.0" text="10%">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="41.0" layoutY="400.0" text="Final">
+         <font>
+            <Font size="20.0" />
+         </font></Label>
+      <ChoiceBox fx:id="StudentBox" layoutX="165.0" layoutY="217.0" prefWidth="150.0" />
+      <TextField fx:id="SText" layoutX="166.0" layoutY="265.0" />
+      <TextField fx:id="TText" layoutX="166.0" layoutY="308.0" />
+      <TextField fx:id="TenText" layoutX="166.0" layoutY="353.0" />
+      <TextField fx:id="FinalText" layoutX="166.0" layoutY="402.0" />
+      <Line endX="318.0" layoutX="115.0" layoutY="190.0" startX="-115.0" />
+      <Button layoutX="335.0" layoutY="518.0" mnemonicParsing="false" onAction="#Print" text="Print">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="18.0" layoutY="525.0" text="Print Name Of Students In File">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

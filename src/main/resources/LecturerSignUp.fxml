@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="433.0" prefWidth="580.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.LecturerSignUpC">
+   <children>
+      <Button layoutX="266.0" layoutY="357.0" mnemonicParsing="false" onAction="#Save" text="Save">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Button>
+      <Label layoutX="46.0" layoutY="91.0" text="Full Name">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="168.0" text="ID">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="234.0" text="Semester">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font>
+      </Label>
+      <Label layoutX="46.0" layoutY="298.0" text="Subject">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font>
+      </Label>
+      <ComboBox fx:id="SemCombo" layoutX="226.0" layoutY="238.0" onAction="#ComboOfSem" prefWidth="150.0" />
+      <TextField fx:id="Name" layoutX="226.0" layoutY="95.0" />
+      <TextField fx:id="ID" layoutX="226.0" layoutY="172.0" />
+      <ChoiceBox fx:id="SubCombo" layoutX="226.0" layoutY="302.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>

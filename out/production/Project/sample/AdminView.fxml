@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="417.0" prefWidth="660.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.AdminViewC">
+   <children>
+      <Label layoutX="42.0" layoutY="66.0" text="Subject Name">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="141.0" text="Subject Code">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="210.0" text="Credit Hours">
+         <font>
+            <Font size="25.0" />
+         </font></Label>
+      <Label layoutX="42.0" layoutY="283.0" text="Semester">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <TextField fx:id="Name" layoutX="256.0" layoutY="70.0" prefHeight="25.0" prefWidth="202.0" />
+      <TextField fx:id="Code" layoutX="256.0" layoutY="144.0" prefHeight="25.0" prefWidth="202.0" />
+      <TextField fx:id="Hours" layoutX="256.0" layoutY="215.0" prefHeight="25.0" prefWidth="202.0" />
+      <Button layoutX="306.0" layoutY="346.0" mnemonicParsing="false" onAction="#Add" prefHeight="25.0" prefWidth="102.0" text="Add">
+         <font>
+            <Font name="Segoe UI" size="16.0" />
+         </font>
+      </Button>
+      <ComboBox fx:id="SemCombo" layoutX="256.0" layoutY="287.0" onAction="#SemCombo" prefHeight="25.0" prefWidth="202.0" />
+   </children>
+</AnchorPane>

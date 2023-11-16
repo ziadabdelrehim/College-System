@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="443.0" prefWidth="470.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.TeacherAssistantViewC">
+   <children>
+      <Button layoutX="369.0" layoutY="393.0" mnemonicParsing="false" onAction="#Insert" text="Insert">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Button>
+      <Line endX="358.5" layoutX="111.0" layoutY="172.0" startX="-129.0" />
+      <Label layoutX="14.0" layoutY="32.0" text="Name :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label fx:id="NameLabel" layoutX="146.0" layoutY="36.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="82.0" text="ID :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label fx:id="IdLabel" layoutX="146.0" layoutY="86.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font></Label>
+      <Label layoutX="18.0" layoutY="197.0" text="Student">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="18.0" layoutY="268.0" text="7th (Out Of 10)">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <TextField fx:id="TText" layoutX="236.0" layoutY="333.0" />
+      <TextField fx:id="SText" layoutX="235.0" layoutY="271.0" />
+      <ChoiceBox fx:id="StudentBox" layoutX="235.0" layoutY="201.0" prefWidth="150.0" />
+      <Label layoutX="15.0" layoutY="330.0" text="12th ( Out Of 5)">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font></Label>
+      <Label layoutX="7.0" layoutY="134.0" text="Subject :">
+         <font>
+            <Font name="Segoe UI" size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="SubLabel" layoutX="146.0" layoutY="138.0" text="Label">
+         <font>
+            <Font name="Segoe UI" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
