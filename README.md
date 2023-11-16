@@ -9,7 +9,7 @@ This Java and JavaFX project implements a college system that includes features 
 
 ## Demo Video
 
-[![Demo Video](https://github.com/ziadabdelrehim/College-System/assets/80210355/c9f977e0-1216-4c8e-8852-beba6f14d057)
+![Demo Video](https://github.com/ziadabdelrehim/College-System/assets/80210355/c9f977e0-1216-4c8e-8852-beba6f14d057)
 
 Watch a demo of the College System Project in action! Click the image above to view the video.
 
